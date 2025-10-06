@@ -2,6 +2,7 @@ p {
 	font-size: 1.2rem;
 	line-height: 1.7;
     font-family: 'Google Fonts';
+	font-size: x-large;
 }
 footer {
 	padding: 32px 0 32px 0;
@@ -99,4 +100,10 @@ h2 {
 ul li {
 	margin-bottom: 20px;
 }
-	/* Removed overlay as it is not needed *
+	body {
+		background-color: #f0f0f0; /* light gray */
+		color: #222; /* dark text for contrast */
+		margin: 0;
+		font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	}
+	
