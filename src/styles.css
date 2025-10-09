@@ -187,8 +187,7 @@ body > * {
 		box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 	}
 
-	/* Responsive breakpoints (mobile-first) */
-	/* Base: mobile (up to ~599px) */
+	
 	h1 {
 		font-size: 1.6rem;
 		padding: 56px 16px 80px 16px;
@@ -212,7 +211,6 @@ body > * {
 		height: 200px;
 	}
 
-	/* Tablet and up */
 	@media (min-width: 600px) {
 		h1 {
 			font-size: 2.4rem;
@@ -233,17 +231,16 @@ body > * {
 		}
 	}
 
-	/* Desktop and large screens */
 	@media (min-width: 1024px) {
 		h1 {
-			font-size: 3rem; /* restore original for large */
+			font-size: 3rem; 
 			padding: 140px 20px 200px 50px;
 		}
 		.h1-search input[type="search"]{
 			min-width: 240px;
 		}
 		ul {
-			gap: 300px; /* original spacing */
+			gap: 300px; 
 			font-size: 1.2rem;
 			max-width: 1100px;
 		}
